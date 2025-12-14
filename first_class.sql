@@ -15,11 +15,11 @@ SELECT * FROM Books;
 SELECT title, author FROM Books
 WHERE year > 1870;
 INSERT INTO Books (book_id, title, author, year)
-VALUES (4, "Масер и Маргарита", "Михаил Булгаков", 1967);
+VALUES (4, "Мастер и Маргарита", "Михаил Булгаков", 1967);
 
 -- Пример кода UPDATE
 UPDATE Books
-SET year = 1873, author = "Лев ТОлстой"
+SET year = 1873, author = "Лев Толстой"
 WHERE book_id = 1;
 
 -- Пример кода DELETE
