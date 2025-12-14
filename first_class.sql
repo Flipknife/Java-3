@@ -9,8 +9,6 @@ CREATE TABLE Books (
 );
 
 
-
-
 SELECT * FROM Books;
 SELECT title, author FROM Books
 WHERE year > 1870;
